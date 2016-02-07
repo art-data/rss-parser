@@ -1,0 +1,7 @@
+{
+  "output_key_prefix": "downloads/",
+  "output_bucket": "art-data",
+
+  "config_bucket": "art-data",
+  "config_file": "art-blogs.json"
+}

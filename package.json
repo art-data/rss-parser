@@ -1,0 +1,32 @@
+{
+  "name": "rss-downloader",
+  "version": "1.0.0",
+  "description": "This thingy downloads rss feeds",
+  "main": "index.js",
+  "scripts": {
+    "start": "iojs index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/art-data/rss-downloader.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/art-data/rss-downloader/issues"
+  },
+  "homepage": "https://github.com/art-data/rss-downloader#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.33",
+    "babel-polyfill": "^6.3.14",
+    "date-format": "0.0.2",
+    "request": "^2.69.0",
+    "request-promise": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.2",
+    "gulp-install": "^0.6.0",
+    "gulp-zip": "^3.1.0"
+  }
+}
